@@ -1,0 +1,40 @@
+
+/* TABLET */
+@media (max-width: 768px){
+    .layout{
+        max-width: 768px;
+    }
+    .navbar__nav{
+        align-items: center;
+        text-align: center;
+    }
+    .principal__top{
+        align-items: center;
+        justify-content: center;
+    }
+    .principal__bottom{
+        justify-content: center;
+    }
+    .bottom__films{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+    .films__container:last-child{
+        display: none;
+    }
+    .films__container:first-child{
+        margin-left: 2rem;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 480px){
+    .layout{
+        max-width: 480px;
+    }
+    .films__container:nth-child(2){
+        display: none;
+    }
+}
+

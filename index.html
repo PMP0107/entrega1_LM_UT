@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- FUENTES -->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <title>Las películas del momento</title>
+  </head>
+
+  <body>
+    <div class="layout">
+
+      <!-- MENÚ -->
+      <section class="layout__menu">
+            <header class="menu__navbar">
+
+                <!--LOGO-->
+                <div class="navbar__logo">
+                    <a href="#" class="navbar__link-logo">
+                        <img src="./assets/img/logo.png" class="navbar__logo" alt="logo">
+                    </a>
+                </div>
+
+                <!--NAVEGACION-->   
+                <nav class="navbar__nav">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Actualidad</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Categorías
+                                <i class="nav__icon fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="nav__submenu">
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Acción</a>
+                                </li>
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Romance</a>
+                                </li>
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Comedia</a>
+                                </li>
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Ciencia ficción</a>
+                                </li>
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Terror</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Blog</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Novedades
+                                <i class="nav__icon fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="nav__submenu">
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Cine</a>
+                                </li>
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Series</a>
+                                </li>
+
+                                <li class="submenu__item">
+                                    <a href="#" class="submenu__title">Dibujos</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Contacto</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </header>
+      </section>
+
+      <div class="layout__container">
+
+        <section class="container__secondary">
+          <div class="secondary__social">
+            <i class="social__icon fa-brands fa-square-instagram"></i>
+            <i class="social__icon fa-brands fa-facebook"></i>
+            <i class="social__icon fa-brands fa-youtube"></i>
+            <i class="social__icon fa-brands fa-telegram"></i>
+          </div>
+
+          <div class="secondary__reviews">
+            <header class="reviews__rheader">
+              <h2 class="rheader__title">Opiniones de usuarios</h2>
+            </header>
+            <div class="reviews__rgrid">
+              <article class="rgrid__ritem">
+                <div class="ritem__img-container">
+                  <img class="ritem__img" src="assets/img/review-1.png" alt="portada película" />
+                </div>
+                <h3 class="ritem__title">Spiderman</h3>
+                <div class="ritem__author">
+                  <div class="author__container-img">
+                    <img class="author__img" src="assets/img/author-1.png" alt="foto autor review"/>
+                  </div>
+                  <div class="author__review">
+                    <h4 class="review__name">Laura Pérez</h4>
+                    <h5 class="review__city">Valencia</h5>
+                    <p class="review__description">Una gran película para disfrutar en familia</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="rgrid__ritem">
+                <div class="ritem__img-container">
+                  <img class="ritem__img" src="assets/img/review-2.png" alt="portada película"/>
+                </div>
+                <h3 class="ritem__title">Avengers</h3>
+                <div class="ritem__author">
+                  <div class="author__container-img">
+                    <img class="author__img" src="assets/img/author-2.png" alt="foto autor review"/>
+                  </div>
+                  <div class="author__review">
+                    <h4 class="review__name">Pepe Jiménez</h4>
+                    <h5 class="review__city">Galicia</h5>
+                    <p class="review__description">Un cláico que nunca está de más</p>
+                  </div>
+                </div>
+              </article>
+
+              <article class="rgrid__ritem">
+                <div class="ritem__img-container">
+                  <img
+                    class="ritem__img"
+                    src="assets/img/review-3.png"
+                    alt="portada película"
+                  />
+                </div>
+                <h3 class="ritem__title">Megalodón</h3>
+                <div class="ritem__author">
+                  <div class="author__container-img">
+                    <img class="author__img" src="assets/img/author-3.png" alt="foto autor review"/>
+                  </div>
+                  <div class="author__review">
+                    <h4 class="review__name">Sara M.</h4>
+                    <h5 class="review__city">Málaga</h5>
+                    <p class="review__description">Me ha parecido increíble</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="container__principal">
+          <div class="principal__top">
+            <article class="principal__card">
+              <div class="card__container-img">
+                <img
+                  class="card__img"
+                  src="assets/img/principal-1.png"
+                  alt="portada película"
+                />
+              </div>
+              <div class="card__text">
+                <h2 class="card__title">Indiana Jones</h2>
+                <p class="card__description">
+                  Nueva entrega llena de nuevas aventuras
+                </p>
+              </div>
+
+              <div class="card__tag">
+                <div class="tag__container">
+                  <p class="tag__title">Aventuras</p>
+                </div>
+                <div class="tag__icon">
+                  <i class="tag__img fa-solid fa-video"></i>
+                </div>
+              </div>
+            </article>
+
+            <article class="principal__card">
+              <div class="card__container-img">
+                <img
+                  class="card__img"
+                  src="assets/img/principal-2.png"
+                  alt="portada película"
+                />
+              </div>
+              <div class="card__text">
+                <h2 class="card__title">Openheimer</h2>
+                <p class="card__description">Conoce la hstoria más atómica</p>
+              </div>
+
+              <div class="card__tag">
+                <div class="tag__container">
+                  <p class="tag__title">Historia</p>
+                </div>
+                <div class="tag__icon">
+                  <i class="tag__img fa-solid fa-video"></i>
+                </div>
+              </div>
+            </article>
+
+            <article class="principal__card">
+              <div class="card__container-img">
+                <img
+                  class="card__img"
+                  src="assets/img/principal-3.png"
+                  alt="portada película"
+                />
+              </div>
+              <div class="card__text">
+                <h2 class="card__title">Misión Imposible</h2>
+                <p class="card__description">
+                  Acompaña a Ethan en su nueva misión
+                </p>
+              </div>
+
+              <div class="card__tag">
+                <div class="tag__container">
+                  <p class="tag__title">Acción</p>
+                </div>
+                <div class="tag__icon">
+                  <i class="tag__img fa-solid fa-video"></i>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="principal__bottom">
+            <section class="bottom__marketing">
+              <div class="marketing__container">
+                <h2 class="marketing__text">
+                  "Tus clientes más infelices son tu mayor fuente de aprendizaje"
+                </h2>
+              </div>
+            </section>
+
+            <section class="bottom__films">
+              <div class="films__container">
+                <img
+                  class="films__img"
+                  src="assets/img/secondary-1.png"
+                  alt="portada película"
+                />
+              </div>
+
+              <div class="films__container">
+                <img
+                  class="films__img"
+                  src="assets/img/secondary-2.png"
+                  alt="portada película"
+                />
+              </div>
+
+              <div class="films__container">
+                <img
+                  class="films__img"
+                  src="assets/img/secondary-3.png"
+                  alt="portada película"
+                />
+              </div>
+            </section>
+          </div>
+
+          <div class="principal__shapes">
+            <img class="shapes_shape shapes__sahpe1" src="assets/img/shape-1.png" alt="sombra">
+            <img class="shapes_shape shapes__sahpe2" src="assets/img/shape-3.png" alt="sombra">
+            <img class="shapes_shape shapes__sahpe3" src="assets/img/shape-4.png" alt="sombra">
+            <img class="shapes_shape shapes__sahpe4" src="assets/img/shape-6.png" alt="sombra">
+          </div>
+
+        </section>
+
+      </div>
+
+      <footer class="layout__footer">
+        <div class="footer__copy">
+          <div class="copy__icon">&copy;</div> 
+          <div class="copy__text">el rincón del cine</div>
+        </div>
+
+        <div class="footer__btn">
+          <i class="footer__icon fa-solid fa-envelope"></i>
+          <a class="footer__info" href="#"> rincondelcine@rinoncine.com </a>
+        </div>
+
+        <div class="footer__btn">
+          <i class="footer__icon fa-solid fa-phone"></i>
+          <a class="footer__info" href="#"> 676 676 676 </a>
+        </div>
+
+        <div class="footer__logo">
+          <img class="footer__img" src="assets/img/logo.png" alt="logo" />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
